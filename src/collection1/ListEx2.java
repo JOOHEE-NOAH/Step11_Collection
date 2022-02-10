@@ -7,7 +7,7 @@ import java.util.List;
 public class ListEx2 {
 
 	public static void main(String[] args) {
-		List<Object> list=new ArrayList<>(); //<String>:받아쓰는애는 String자료형이어야한다는 의미
+		List<Object> list=new ArrayList<>(); //<String>:받아쓰는애는 String자료형이어야한다는 의미//object자료형은 수퍼
 		
 		list.add("봄");
 		list.add("여름");
