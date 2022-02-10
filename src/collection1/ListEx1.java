@@ -3,7 +3,7 @@ package collection1;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-
+//리스트: 서로다른 자료형의 연속된 기억공간
 //List(인터페이스): 중복허용 o 순서유지o
 //배열과 유사, 담을 수 있는 값의 개수가 자동으로 증가
 public class ListEx1 {
