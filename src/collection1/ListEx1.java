@@ -46,7 +46,7 @@ public class ListEx1 {
 		System.out.println("====="+(end-start));//iterator쓰면 속도 느림
 		System.out.println("====="+(_end-_start));//향상된 for문이 젤 속도 빠름
 		System.out.println("====="+(__end-__start));//for문 속도 빠름
-		
+		//그렇지만 상황에 따라 속도 서로 차이 얼마 안날수도 있음.
 		
 		System.out.println(list.get(2)); //get(index) 인덱스에 해당하는 값을 리턴
 		System.out.println(list.size()); //size(): list의 데이터 개수리턴
