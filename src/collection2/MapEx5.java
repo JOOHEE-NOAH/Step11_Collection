@@ -30,8 +30,20 @@ public class MapEx5 {
 //		}
 		
 		//이터레이터를 이용하여 결과를 출력해주세요.
-		Iterator<String> rroom=map.keySet().iterator();
-		System.out.println(map.get(rroom));
+		Set<String> col=map.keySet();//키 부분의 목록 뽑기
+	//	System.out.println(col);
+		Iterator<String> iter=col.iterator();
+		while(iter.hasNext()){//iter가 존재 한다면,
+			String key=iter.next();
+			String rroom=map.get(key); //이터에서 꺼낸 데이터로 결과를 뽑겠다.
+			if(rroom.equals(room))
+				System.out.println(room+"에 투숙한 고객은 "+key+"입니다");
+		}
+		
+		
+		
+		//		Iterator<String> col=map.keySet();
+	//	System.out.println(col);
 //		while(rroom.hasNext()) {
 //			String key=rroom.next();
 //			System.out.println(room+"에 투숙한 고객은 "+rroom.next()+"입니다");
