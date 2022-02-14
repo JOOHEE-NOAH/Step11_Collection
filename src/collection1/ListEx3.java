@@ -7,7 +7,7 @@ import java.util.List;
 public class ListEx3 {
 
 	public static void main(String[] args) {
-		Book bk1=new Book("java","kim",200); 	//이름은 bk1으로 했지만 실제로는 기억공간에는 bk1이 아닌 java , kim 200 이 저장되어있다
+		Book bk1=new Book("java","kim",200); 	//이름은 bk1으로 했지만 실제로는 기억공간에는 bk1이 아닌 java , kim 200 이 저장되어있다. 따라서21번처럼 변수ob를 지정해줘야한다.
 		Book bk2=new Book("network","lee",300);
 		Book bk3=new Book("programming","park",400);
 		
