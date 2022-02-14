@@ -12,7 +12,7 @@ public class EmpMain {
 		//다오에 있는 메소드를 이용해서 vo값을 가지고 옴 
 		//(메인에 있는 메소드를 이용하는 것이 아님-DAO의 사용 목적이 없어진다)!!!!
 		
-		List<EmpVo> list=dao.getEmpList();//2 //List의 자료형은 EmpVo
+		List<EmpVo> list=dao.getEmpList();//2 //List의 자료형은 EmpVo 우변 좌변의 자료형이 일치해야함.
 		for(EmpVo ob:list) { //리스트를 ob라는 변수 다시
 			System.out.println("이름 :"+ob.getEname()+"\t");
 			System.out.println("부서 :"+ob.getDept()+"\t");
