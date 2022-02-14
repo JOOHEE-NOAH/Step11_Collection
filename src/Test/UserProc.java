@@ -25,9 +25,9 @@ public class UserProc {
 //				}
 //				}
 //	}				
-				User entity=null;
+				User entity=null; //null의 상태로 변수 선언
 				if(id.equals("pororo")&&pw.equals("1234")) {
-					entity=new User();
+					entity=new User(); //변수가 null의 상태가 아님
 					entity.setId(id);
 					entity.setPw(pw);
 					entity.setName("뽀로로");
