@@ -9,7 +9,7 @@ import java.util.List;
 public class ListEx1 {
 	@SuppressWarnings(value="unchecked")
 	public static void main(String[] args) {
-		List list=new ArrayList();
+		List list=new ArrayList(); //원래 List<Object>인데 <Object>생략 가능
 		list.add("one");// 마찬가지로 객체 자료형 와야함
 		list.add("second");
 		list.add("3rd");
