@@ -1,6 +1,6 @@
 package collection2;
 //map-> 키 :value 형식의 저장 방식을 가지는 컨테이너(dictionary,json)
-
+	//	->인데스라는 개념이 없고 키 값을 가지고 접근
 import java.util.HashMap;
 import java.util.Map;
 
