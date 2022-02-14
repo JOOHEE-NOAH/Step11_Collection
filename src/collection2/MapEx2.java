@@ -15,7 +15,7 @@ public class MapEx2 {
 		map.put("앨러스터무디", 73);
 		map.put("루나러브굿", Integer.valueOf(97));
 		map.put("앨러스터무디", 93); //같은 키면 덮어쓰기
-		map.put(null, 95);//키 값 비어있는 상태 만드는 것도 가능
+		map.put(null, 73);//키 값 비어있는 상태 만드는 것도 가능// null값 허용
 		map.put("루시우스말포이", null);
 		
 		System.out.println(map);
